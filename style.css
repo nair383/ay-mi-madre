@@ -233,20 +233,19 @@ footer {
     text-transform: uppercase;
 }
 @media (max-width: 768px) {
-    /* 1. Ajuste del Header para que no empuje la pantalla */
     header .container {
         flex-direction: column;
         padding: 0 10px;
     }
 
     .logo {
-        font-size: 1.1rem; /* Logo más pequeño en móvil */
+        font-size: 1.1rem; 
         letter-spacing: 2px;
         margin-bottom: 10px;
     }
 
     nav ul {
-        flex-wrap: wrap; /* Permite que el menú baje si no cabe */
+        flex-wrap: wrap; 
         justify-content: center;
         gap: 10px;
     }
@@ -256,19 +255,17 @@ footer {
     }
 
     nav ul li a {
-        font-size: 0.65rem; /* Letra más pequeña para que quepa en una línea */
+        font-size: 0.65rem; 
         letter-spacing: 1px;
     }
-
-    /* 2. Ajuste del Hero */
     .hero {
-        padding-top: 150px; /* Más espacio para no chocar con el header */
+        padding-top: 150px; 
         padding-left: 15px;
         padding-right: 15px;
     }
 
     .hero-content h2 { 
-        font-size: 1.8rem; /* Evita que el título sea muy ancho */
+        font-size: 1.8rem; 
         letter-spacing: 2px; 
     }
 
@@ -281,8 +278,6 @@ footer {
         padding: 12px 25px;
         font-size: 0.8rem;
     }
-
-    /* 3. Ajuste de las Cards */
     .grid { 
         grid-template-columns: 1fr; 
     }
@@ -293,7 +288,7 @@ footer {
 
     .section-title {
         font-size: 1.3rem;
-        width: 90%; /* Evita que la línea del título empuje el borde */
+        width: 90%; 
     }
 
     .btn-whatsapp {
